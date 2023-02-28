@@ -6,6 +6,7 @@
     --mine_dark: #2c3e50;
     --mine_light: white;
 }
+
 /* utilities */
 .green_btn {
     color: var(--mine_light);
@@ -29,9 +30,11 @@
     aspect-ratio: 1/1;
     text-align: center;
 }
+
 .d_contents {
     display: contents;
 }
+
 /* #end utilities */
 
 /* region color  */
@@ -40,11 +43,13 @@
     background-color: var(--mine_dark);
 }
 
-.
 .green_link {
     color: var(--mine_primary);
 }
 
+.bg_dark{
+    background-color: var(--mine_dark);
+}
 /* #endregion color  */
 
 #app_header {
@@ -68,13 +73,21 @@
 }
 
 /* end region color  */
-
-
 /* mediaquery */
 
-@media screen and (max-width:767px) {
-    li {
-        display: none;
-    }
-
+/* stair */
+.hr_large {
+    width: 165px;
+    height: 3px;
+    border-radius: 15px;
+    color: black;
 }
+
+.hr_small {
+    width: 140px;
+    height: 3px;
+    border-radius: 15px;
+    color: black;
+}
+
+/* #end stair */
