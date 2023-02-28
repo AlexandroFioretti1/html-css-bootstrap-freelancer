@@ -4,11 +4,13 @@
     --mine_primary: #1abc9c;
     --mine_medium: #3a546d;
     --mine_dark: #2c3e50;
+    --mine_light: white;
+
 }
 
 /* #region Debug */
 
-.debug {
+/* .debug {
     border: dashed 1px red;
 }
 
@@ -36,13 +38,16 @@
 .debug #footer_top .row * {
     height: 60px;
     border: dashed red 1px;
-}
+} */
 /* #debug */
 
 /* region color  */
 .color_header {
     color: white;
     background-color: var(--mine_dark);
+}
+.color_light{
+    color: var(--mine_light);
 }
 
 /* #endregion color  */
@@ -72,9 +77,10 @@
 
 /* mediaquery */
 
-@media screen and (min-width:768px) {
-    .nav-link {
+@media screen and (max-width:767px) {
+    li {
         display: none;
     }
 
 }
+
