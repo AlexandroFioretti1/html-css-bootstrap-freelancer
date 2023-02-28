@@ -41,13 +41,49 @@
 } */
 /* #debug */
 
+/* utilities */
+.green_btn {
+    color: var(--mine_light);
+    background-color: var(--mine_primary);
+    border: none;
+}
+
+.download_btn {
+    width: 20% !important;
+    border: none;
+    color: rgba(255, 255, 255);
+    background-color: var(--mine_primary);
+    border: solid 1px white;
+}
+
+.circle_border {
+    border-radius: 50px;
+    border: 1px solid;
+    width: 8%;
+    height: 8%;
+    aspect-ratio: 1/1;
+    text-align: center;
+
+}
+
+.d_contents {
+    display: contents;
+}
+
+/* #end utilities */
+
 /* region color  */
 .color_header {
     color: white;
     background-color: var(--mine_dark);
 }
-.color_light{
+
+.color_light {
     color: var(--mine_light);
+}
+
+.green_link {
+    color: var(--mine_primary);
 }
 
 /* #endregion color  */
@@ -83,4 +119,3 @@
     }
 
 }
-
